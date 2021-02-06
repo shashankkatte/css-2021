@@ -18,3 +18,7 @@
     * ID selector (starts with #)
     * Universal selector is the astrix (*)
     * Attributes selector using the square brackets [ ]
+
+## CSS specificity
+
+inline style -> #ID-selectors -> .class, :pseudo-class and [ attributes ] -> < tag > and :: pseudo- element selectors
