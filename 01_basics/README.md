@@ -14,13 +14,18 @@
 
 2. CSS Selectors and how they work
     * Element selectors
-    * Class selectors (starts with .)
-    * ID selector (starts with #)
-    * Universal selector is the astrix (*)
-    * Attributes selector using the square brackets [ ]
+    * Class selectors starts with `.`
+    * ID selector starts with `#`
+    * Universal selector is the astrix `*`
+    * Attributes selector using the square brackets `[ ]`
 
 3. inline style -> #ID-selectors -> .class, :pseudo-class and [ attributes ] -> < tag > and :: pseudo- element selectors
 
 4. Inheritance
 
 5. Using combinators
+    1. Adjacent sibling : uses `+` sign
+    2. General sibling : uses `~` sign
+    3. Child : uses `>` sign
+    4. Decendant : uses a white space
+
