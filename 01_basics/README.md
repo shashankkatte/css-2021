@@ -19,6 +19,8 @@
     * Universal selector is the astrix (*)
     * Attributes selector using the square brackets [ ]
 
-## CSS specificity
+3. inline style -> #ID-selectors -> .class, :pseudo-class and [ attributes ] -> < tag > and :: pseudo- element selectors
 
-inline style -> #ID-selectors -> .class, :pseudo-class and [ attributes ] -> < tag > and :: pseudo- element selectors
+4. Inheritance
+
+5. Using combinators
