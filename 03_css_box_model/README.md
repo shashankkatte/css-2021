@@ -23,4 +23,8 @@ Block elevel elements always take the full available width by default.
 
 The width and height is the width and height avaialble of its coantainer / parent element.
 
+## Box sizing
 
+When you set the width and height of an element, it is only the content height and width. The padding margin border all add up on top of it.
+
+`box-sizing: border-box` is very useful to counter this.
