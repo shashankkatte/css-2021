@@ -14,5 +14,13 @@ Every element on a web page is treated a s a box by css.
 
 ## Margin Collapsing
 
-In CSS if two adjacennt block elements have  margings they are collapsed and the bigger margin wins. To over-ride this behaviour just explicitly declare `margin-top` or `margin-botton`. More on Margin collapsing here on [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing)
+In CSS if two adjacennt block elements have  margings they are collapsed and the bigger margin wins. To over-ride this behaviour just explicitly declare `margin-top` or `margin-botton`.
+ > More on Margin collapsing here on [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing)
+
+## Block Level elements
+
+Block elevel elements always take the full available width by default.
+
+The width and height is the width and height avaialble of its coantainer / parent element.
+
 
