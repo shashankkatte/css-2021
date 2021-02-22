@@ -14,8 +14,9 @@ Every element on a web page is treated a s a box by css.
 
 ## Margin Collapsing
 
-In CSS if two adjacennt block elements have  margings they are collapsed and the bigger margin wins. To over-ride this behaviour just explicitly declare `margin-top` or `margin-botton`.
- > More on Margin collapsing here on [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing)
+In CSS if two adjacennt block elements have margings they are collapsed and the bigger margin wins. To over-ride this behaviour just explicitly declare `margin-top` or `margin-botton`.
+
+> More on Margin collapsing here on [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing)
 
 ## Block Level elements
 
@@ -28,3 +29,15 @@ The width and height is the width and height avaialble of its coantainer / paren
 When you set the width and height of an element, it is only the content height and width. The padding margin border all add up on top of it.
 
 `box-sizing: border-box` is very useful to counter this.
+
+## Strange behaviour of inline-block
+
+Its absolutely dumb but look at the code block here
+
+````html
+</div>
+      <nav class="main-nav">
+        
+````
+
+The white space between div and nav is considered an element which causes the nav element to jump to another line
