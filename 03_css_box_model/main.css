@@ -65,9 +65,12 @@ body {
 .main-nav__items a {
   text-decoration: none;
   color: #0e4f1f;
+  font-weight: bold;
+  padding: 3px 0;
 }
 
 .main-nav__items a:hover,
 .main-nav__items a:active {
   color: white;
+  border-bottom: 5px solid white;
 }
