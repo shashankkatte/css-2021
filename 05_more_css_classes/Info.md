@@ -9,3 +9,7 @@
 ## !important annotation
 
 It overrides specificity and all other selectors. You shouldnt really use it unless there is no other way out
+
+## Not() pseudo class
+
+It can be handy in some situations, like overwriting. Its better to not use it and use the postive cases. Not is just harder and confusing to check.
