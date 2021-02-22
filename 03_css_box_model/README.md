@@ -41,3 +41,11 @@ Its absolutely dumb but look at the code block here
 ````
 
 The white space between div and nav is considered an element which causes the nav element to jump to another line
+
+## Pseudo Classes `:`
+
+Pseudo classes help define style of a special state of an element.
+
+## Pseudo Elements `::`
+
+Pseudo elements help define the style for specific part of an element.
