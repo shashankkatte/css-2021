@@ -19,3 +19,7 @@ the properties absolute, relative, fixed and sticky allow us to position the ele
 
 The position property applies to both block level and inline elements.
 
+### Z - index
+
+This helps us stact one item on top of another.
+> Z-index doesnt have any impact if the positioning is static for an element.
