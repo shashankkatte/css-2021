@@ -49,3 +49,17 @@ Adjust to default font size. We rem and em
 ### Percentages
 
 Percentages are special case 
+
+## 3 Rules to rmember with percentages
+
+## Fixed positioning and %
+
+If position property is fixed, then the refrence is viewport.
+
+## Absolute positioning and %
+
+If position is absolute then the reference is an ancestor. Percentage is ancestors content + padding
+
+## Relative / Static positioning with %
+
+If postion is static or relative then the reference closest ancestor which is a block level element.
